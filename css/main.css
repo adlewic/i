@@ -1,0 +1,342 @@
+/*@import 'https://fonts.googleapis.com/css?family=Abel:300,300i,400,400i';*/
+@import 'https://fonts.googleapis.com/css?family=Abel';
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#ThreeJS{
+	position: absolute;
+	z-index: -10;
+	background-color: white;
+	/*border: 1px solid pink;*/
+	margin: none;
+/*	margin-top: -80px;*/
+}
+
+
+#ThreeJS_final{
+	position: absolute;
+	/*border: 1px solid purple; */
+	z-index: -10;
+}
+
+/*canvas{
+	opacity: 0.8;
+}*/
+
+
+.layer{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	font-family: Abel;
+	color: #6f6f6f;
+	letter-spacing: 1px;
+	font-weight: 300;
+	z-index: -2;
+}
+
+#intro{
+	font-family: Abel;
+	font-weight: 300;
+	font-style: italic;
+	width: 450px;
+	text-align: center;
+	margin-left: 200PX;
+	margin-top: 22%;
+	font-size: 13pt;
+	color: #9f9f9f;
+	position: absolute;
+	z-index: 10;
+	margin-left: 400px;
+}
+
+#d{
+	font-family: Garamond;
+	font-size: 15pt;
+	color: #000;
+}
+
+#logo{
+	margin-left:2%;
+	letter-spacing: 1px;
+	font-weight: 300;
+}
+
+#logo_one{
+	font-size: 20pt;
+}
+
+#logo_two{
+color: #000;
+}
+
+#logo_three{
+}
+
+h1{
+	/*background: pink;*/
+	width: 200px;
+	margin:0 auto;
+	margin-top: 16%;
+	font-weight: 400;
+	letter-spacing: 4px;
+	font-size: 35pt;
+	color: #000;
+
+}
+
+#introduction{
+	margin: 0 auto;
+	margin-top: 8%;
+	/*background: #f4f4f4;*/
+	width: 400px;
+	letter-spacing: 1px;
+	/*text-align: center;*/
+	font-weight: 300;
+	font-size: 11pt;
+	/*justify-content: center;*/
+	text-align: center;
+	line-height: 30px;
+	
+}
+
+
+
+#hold{
+	text-decoration: none;
+	color: black;
+	width: 5%;
+	/*background: #f4f4f4;*/
+}
+
+img{
+	width: 60px;
+}
+
+
+#galaxy{
+	width: 300px;
+	z-index:-1;
+	/*border: 1px solid black;*/
+	margin-left: 28%;
+	height: 300px;
+	opacity: .5;
+}
+
+
+#text_one{
+	letter-spacing: 1px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 13pt;
+}
+
+
+#line1{
+	/*background: pink;*/
+	width: 200px;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+#line2_a{
+	/*background: purple;*/
+	width: 20px;
+	margin-left: 20%;
+	text-align: center;
+	margin-left: 50%;
+	margin-top: 10%;
+	font-family: Garamond;
+	font-size: 30pt;
+}
+
+#line2{
+	/*background: #ccc;*/
+	width: 200px;
+	float: right;
+	margin-top: 10%;
+	margin-right: 20%;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+#text_two{
+margin-left: 10%;
+/*background: pink;*/
+width: 400px;
+text-align: center;
+font-size: 13pt;
+margin-top:5%; 
+z-index: 1;
+}
+
+
+#text_three{
+margin-left: 40%;
+margin-top: 10%;
+position: absolute;
+width: 400px;
+z-index: 2;
+font-size: 13pt;
+}
+
+
+
+
+
+
+/* place*/
+
+#line9{
+	/*background: pink;*/
+	width: 200px;
+	text-align: center;
+	margin-top: 10%;
+	margin-left: 10%;
+font-size: 13pt;	
+}
+
+#line10{
+	/*background: pink;*/
+	width: 250px;
+	text-align: center;
+	margin-top: 10%;
+	float: right;
+	margin-right: 10%;
+	font-size: 13pt;
+}
+
+#garamond{
+	font-family: Garamond;
+	font-size: 15pt;
+	color: #4f4f4f;
+	font-style: italic;
+}
+
+
+
+#line11{
+	float: right;
+	margin-top: 10%;
+	margin-right: 10%;font-size: 13pt;
+}
+
+#line12{
+	margin-top: 40%;
+	margin-left: 10%;
+	float: left;font-size: 13pt;
+
+}
+
+#line13{
+	/*background: pink;*/
+	text-align: center;
+	width: 300px;
+	margin-left: 10%;
+	margin-top: 5%;
+	font-size: 13pt;
+}
+
+#line14{
+	/*background: red;*/
+	text-align: center;
+	width: 200px;
+	float: right;
+	margin-right: 90px;
+	margin-top: 25%;
+	font-size: 13pt;
+}
+
+#line15{
+	/*background: purple;*/
+	text-align: center;
+	width: 200px;
+	margin-left: 40%;
+	margin: 0 auto;
+	font-size: 16pt;
+}
+
+
+#line16{
+	font-family: Garamond;
+	font-size: 25pt;
+}
+
+#line17{
+		font-size: 13pt;
+}
+
+#text_five{
+	/*background: lightblue;*/
+	width: 200px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10%;
+		font-size: 15pt;
+}
+
+#logo_end{
+	/*background: yellow;*/
+	text-align: center;
+	width: 350px;
+	font-size: 23pt;
+	margin: 0 auto;
+	margin-top: -80px;
+}
+
+
+#final_text{
+	margin: 0 auto;
+	width: 450px;
+	text-align: center;
+	margin-top: 2%;
+	font-size: 11pt;
+}
+
+#cute{
+	font-size: 5pt;
+	color:#0051ba;
+}
+
+#black{
+	color: #000;
+}
+
+/*dots*/
+
+#dot_two{
+	width: 50px;
+	margin-left: 47%;
+	margin-top: 2%;
+}
+
+#dot_three{
+	width: 50px;
+	/*background: pink;*/
+	margin-top: 48%;
+	margin-left: 47%;
+	position: absolute;
+}
+
+#dot_four{
+	width: 50px;
+	/*background-color: pink;*/
+	margin-top: 2%;
+	margin-left: 94%;
+	position: absolute;
+}
+
+
+#dot_five{
+	width: 50px;
+	position: absolute;
+	z-index: 5;
+	margin-left: 47%;
+	margin-top: -20%;
+}
